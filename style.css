@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "idk";
-	src:"NovaMono-Regular.ttf";
+	src:url("fonts/NovaMono-Regular.ttf");
 }
 .bottom_bar {
 	position: absolute;
@@ -8,6 +8,7 @@
 	left: 0;
 	width: 100%;
 	background-color: #000;
+	border-top: #fff 3px solid;
 }
 .bar_link {
 	color: #fff;
@@ -21,5 +22,9 @@
 }
 .bar_link:hover {
 	color: #fff;
+	background-color: #000;
+}
+body {
+	font-family: "idk";
 	background-color: #000;
 }
