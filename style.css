@@ -22,7 +22,7 @@
 }
 .bar_link:hover {
 	color: #fff;
-	background-color: #000;
+	background-color: none;
 }
 .bar_link:visited {
 	color: #fff;
@@ -57,10 +57,39 @@ body {
 }
 .project_container {
 	padding-left: 50px;
+	padding-right: 50px;
 }
 .projects {
 	border: #fff 3px solid;
+	width: 100%;
 }
 .project_m, .project_c {
 	padding: 10px;	
+	width: 50%;
+	vertical-align: top;
+}
+.project_m {
+	border-right: #fff 3px solid;
+}
+.project_link {
+	color: #fff;
+	text-decoration: none;
+	font-size: 25px;
+}
+.project_link.active {
+	color: #fff;
+}
+.project_link:hover {
+	color: #fff;
+	background-color: none;
+}
+.project_link:visited {
+	color: #fff;
+}
+.project_disc {
+	color: #fff;
+	font-size: 20px;
+}
+.project {
+	padding-bottom: 15px;
 }
