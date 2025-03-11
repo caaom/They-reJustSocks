@@ -24,7 +24,43 @@
 	color: #fff;
 	background-color: #000;
 }
+.bar_link:visited {
+	color: #fff;
+}
 body {
 	font-family: "idk";
 	background-color: #000;
+}
+.titles {
+	color:#fff;
+	padding: 20px 50px 75px 50px;
+}
+.title {
+	font-size: 75px
+}
+.subtitle {
+	font-size: 50px;
+}
+.title_link {
+	color: #fff;
+	text-decoration: none;
+}
+.title_link.active {
+	color: #fff;
+}
+.title_link:hover {
+	color: #fff;
+	background-color: #000;
+}
+.title_link:visited {
+	color: #fff;
+}
+.project_container {
+	padding-left: 50px;
+}
+.projects {
+	border: #fff 3px solid;
+}
+.project_m, .project_c {
+	padding: 10px;	
 }
