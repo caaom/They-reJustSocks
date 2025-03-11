@@ -93,9 +93,9 @@ body {
 .project {
 	padding-bottom: 15px;
 }
-.projects_titles {
+.header_container {
 	width: 100%;
 }
-.project_titles {
+.headers {
 	width: 50%;
 }
