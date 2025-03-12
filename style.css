@@ -97,6 +97,5 @@ body {
 	width: 100%;
 }
 .headers {
-	min-width: 50%;
-	max-width: 50%;
+	width: 50%;
 }
